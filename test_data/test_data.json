@@ -1,0 +1,36 @@
+{
+  "valid_credentials" : [
+    {
+      "user_name" : "standard_user",
+      "password"  : "secret_sauce"
+    }
+  ],
+  "invalid_credentials":[
+    {
+      "user_name" : "standard_user",
+      "password"  : "secrat_sauce"
+    }
+  ],
+  "add_product_cart" : [
+    {
+      "user_name" : "standard_user",
+      "password"  : "secret_sauce",
+      "action" : "Add to cart",
+      "product_name" : "Sauce Labs Onesie"
+    }
+  ],
+  "all_items" : [
+    {
+      "user_name" : "standard_user",
+      "password"  : "secret_sauce",
+      "action" : "Add to cart"
+    }
+  ],
+  "add_multiple":[
+     {
+      "user_name" : "standard_user",
+      "password"  : "secret_sauce",
+      "product_names" : ["Sauce Labs Backpack", "Sauce Labs Fleece Jacket"]
+    }
+  ]
+}
