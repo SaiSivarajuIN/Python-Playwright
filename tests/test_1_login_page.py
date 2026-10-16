@@ -21,7 +21,7 @@ def test_tc001_login_with_valid_credentials(browserInstance, testData):
 
 @pytest.mark.regression
 @pytest.mark.parametrize("testData", test_data["invalid_credentials"])
-def test_tc002_login_with_invalid_credentials(browserInstance, testData):
+def test_tc005_login_with_invalid_credentials(browserInstance, testData):
     # page Objects
     pageObjects = PageObjects(browserInstance)
 
